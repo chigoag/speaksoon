@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://chigoag.github.io/speaksoon/sitemap.xml
