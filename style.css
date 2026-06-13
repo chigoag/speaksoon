@@ -55,6 +55,13 @@ img { max-width: 100%; }
 .tldr ul { margin: 8px 0 0; padding-left: 20px; }
 .tldr li { margin: 6px 0; }
 
+/* FAQ */
+.faq { margin: 16px 0 8px; }
+.faq details { background: var(--surface); border: 1px solid var(--line); border-radius: 14px; padding: 14px 18px; margin: 12px 0; }
+.faq summary { cursor: pointer; font-weight: 600; list-style-position: inside; }
+.faq details[open] summary { margin-bottom: 8px; }
+.faq details p { margin: 0; color: var(--muted); }
+
 /* Section + general */
 h2.section { font-size: 1.4rem; margin: 40px 0 10px; letter-spacing: -0.01em; }
 .muted { color: var(--muted); }
